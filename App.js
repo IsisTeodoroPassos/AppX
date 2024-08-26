@@ -1,11 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { createDrawerNavigator } from "@react-navigation/drawer";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import TelaJavaScript from "./componentes/TelaJavaScript.js";
 import TelaReact from "./componentes/TelaReact.js";
 import TelaNode from "./componentes/TelaNode.js";
 
-const Menu = createDrawerNavigator();
+const Menu = createBottomTabNavigator();
 
 
 
